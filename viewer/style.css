@@ -1,0 +1,21 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.main {
+    display: block;
+    margin-right: 20px;
+}
+
+.sidebar {
+    width: 10em;
+}
+
+.sidebar__item {
+    margin-bottom: 20px;
+    position: sticky;
+    margin-bottom: 0;
+    top: 10px;
+    z-index: 1;
+}
