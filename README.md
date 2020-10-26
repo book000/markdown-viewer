@@ -1,6 +1,6 @@
 # markdown-viewer
 
-This is a simple Markdown viewer. I'm using a [Markdown stylesheet from GitHub](https://github.com/sindresorhus/github-markdown-css).
+This is a simple Markdown viewer. It is using a [Markdown stylesheet from GitHub](https://github.com/sindresorhus/github-markdown-css).
 
 ## Requirements
 
