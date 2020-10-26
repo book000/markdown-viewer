@@ -1,7 +1,7 @@
 window.onload = function () {
     const sidebarfiles_elem = document.getElementById("sidebar-files");
 
-    axios.get("/viewer/getFiles.php")
+    axios.get("getFiles.php")
         .then(response => {
             for (file of response.data.files) {
                 const a = document.createElement("a");
@@ -29,7 +29,7 @@ window.onload = function () {
 function openFile(that) {
     const converter = new showdown.Converter();
     converter.setFlavor("github");
-    axios.get("/files/" + that.dataset.file, {
+    axios.get("../files/" + that.dataset.file, {
             responseType: "text"
         })
         .then(response => {
