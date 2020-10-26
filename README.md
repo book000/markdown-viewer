@@ -8,7 +8,7 @@ This is a simple Markdown viewer. I'm using a [Markdown stylesheet from GitHub](
 
 ## Demo
 
-[Demo](https://book000.github.com/markdown-viewer/viewer)
+[Demo](https://tomacheese.com/demo/markdown-viewer/viewer/)
 
 ## Usage
 
