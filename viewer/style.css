@@ -3,13 +3,19 @@
     display: flex;
 }
 
-.main {
+#main {
     display: block;
-    margin-right: 20px;
+    margin-left: 11em;
+    overflow: auto;
 }
 
 .sidebar {
+    position: fixed;
+    z-index: 1;
     width: 10em;
+    overflow-y: auto;
+    top: 0;
+    bottom: 0;
 }
 
 .sidebar__item {
