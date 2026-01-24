@@ -25,3 +25,9 @@
 - ログに機密情報を出力しない。
 
 ## リポジトリ固有
+- **server**: PHP built-in web server (localhost:8080)
+- **usage**: Place markdown files in files/ directory, start server, access http://localhost:8080/viewer
+- **styling**: GitHub markdown CSS for consistent appearance
+- **security_warning**: HTML tags not escaped - XSS risk with script tags
+- **demo_url**: https://tomacheese.com/demo/markdown-viewer/viewer/
+- **cross_platform**: Works on Linux (start.sh) and Windows (start.bat)

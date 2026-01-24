@@ -15,7 +15,11 @@
 - 日本語と英数字の間には半角スペースを入れる。
 
 ## プロジェクト概要
-- 目的: This is a simple Markdown viewer. It is using a [Markdown stylesheet from GitHub](https://github.com/sindresorhus/github-markdown-css).
+Simple web-based Markdown file viewer with GitHub-style CSS, accessible via local PHP server.
+
+### 技術スタック
+- **言語**: JavaScript, PHP, CSS
+- **パッケージマネージャー**: none
 
 ## コーディング規約
 - フォーマット: 既存設定（ESLint / Prettier / formatter）に従う。
@@ -23,9 +27,23 @@
 - コメント言語: 日本語
 - エラーメッセージ: 英語
 
-## 開発コマンド
+### 開発コマンド
 ```bash
-# README を確認してください
+# install
+No dependencies
+
+# dev
+start.sh (Linux) or start.bat (Windows)
+
+# build
+None - static files
+
+# test
+None
+
+# lint
+None
+
 ```
 
 ## 注意事項
@@ -34,3 +52,9 @@
 - 既存のプロジェクトルールがある場合はそれを優先する。
 
 ## リポジトリ固有
+- **server**: PHP built-in web server (localhost:8080)
+- **usage**: Place markdown files in files/ directory, start server, access http://localhost:8080/viewer
+- **styling**: GitHub markdown CSS for consistent appearance
+- **security_warning**: HTML tags not escaped - XSS risk with script tags
+- **demo_url**: https://tomacheese.com/demo/markdown-viewer/viewer/
+- **cross_platform**: Works on Linux (start.sh) and Windows (start.bat)
